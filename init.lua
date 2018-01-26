@@ -220,5 +220,5 @@ require('nn.SparseJacobian')
 require('nn.hessian')
 require('nn.test')
 
-
+require ('nn.SVDLinear')
 return nn

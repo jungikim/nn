@@ -591,6 +591,14 @@ TH_API void THNN_(Square_updateGradInput)(
           THTensor *gradOutput,
           THTensor *gradInput);
 
+TH_API void THNN_(SVDLinear_updateFullView)(
+          THNNState *state,
+          THLongTensor *indices,
+          THTensor *z,
+          THTensor *B,
+          THTensor *h,
+          THTensor *bias);
+
 TH_API void THNN_(Tanh_updateOutput)(
           THNNState *state,
           THTensor *input,
@@ -1614,5 +1622,4 @@ TH_API void THNN_(VolumetricUpSamplingTrilinear_updateGradInput)(
           int outputDepth,
           int outputHeight,
           int outputWidth);
-
 #endif

@@ -161,6 +161,9 @@
 #include "generic/Square.c"
 #include "THGenerateFloatTypes.h"
 
+#include "generic/SVDLinear.c"
+#include "THGenerateFloatTypes.h"
+
 #include "generic/Tanh.c"
 #include "THGenerateFloatTypes.h"
 
